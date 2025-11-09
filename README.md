@@ -37,7 +37,6 @@ All images referenced below are saved in `Model_Images/` (temperature, von‑Mis
 Disc-Brake-FEA-ANSYS/
 ├── README.md
 ├── Report.pdf                
-├── geometry_overview.png
 ├── mesh_overview.png
 ├── temp.png
 ├── equivalent stress.png
