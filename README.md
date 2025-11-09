@@ -42,7 +42,7 @@ Disc-Brake-FEA-ANSYS/
 ├── temp.png
 ├── equivalent stress.png
 ├── total def.png
-├── CAD_File.step             
+├── dick break.IGS            
 ```
 
 ---
