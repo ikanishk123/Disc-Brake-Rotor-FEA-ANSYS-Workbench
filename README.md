@@ -36,15 +36,13 @@ All images referenced below are saved in `Model_Images/` (temperature, von‑Mis
 ```
 Disc-Brake-FEA-ANSYS/
 ├── README.md
-├── Report.pdf                # Full ANSYS generated report (57 pages)
-├── Model_Images/
-│   ├── geometry_overview.png
-│   ├── mesh_overview.png
-│   ├── temp.png
-│   ├── equivalent stress.png
-│   └── total def.png
-├── CAD_File.step             # Optional (if non-proprietary)
-└── LICENSE (optional)
+├── Report.pdf                
+├── geometry_overview.png
+├── mesh_overview.png
+├── temp.png
+├── equivalent stress.png
+├── total def.png
+├── CAD_File.step             
 ```
 
 ---
