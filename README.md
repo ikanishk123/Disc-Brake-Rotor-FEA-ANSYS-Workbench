@@ -8,7 +8,7 @@
 
 This repository documents a professional, reproducible Finite Element Analysis of a ventilated disc brake rotor carried out in **ANSYS Workbench**. The study couples a **steady‑state thermal** simulation and a **static structural** analysis to evaluate temperature distribution, thermo‑mechanical stresses, and total deformation under representative braking conditions.
 
-All images referenced below are saved in `Model_Images/` (temperature, von‑Mises stress, and total deformation contours). A formal one‑page summary report is included as `Report.pdf`.
+All images referenced below are saved in the repository (temperature, von‑Mises stress, and total deformation contours). A formal summary report is included as `Report.pdf`.
 
 ---
 
@@ -19,7 +19,7 @@ All images referenced below are saved in `Model_Images/` (temperature, von‑Mis
 * **Maximum total deformation:** 0.067061 mm (6.7061e-02 mm).
 * **Mesh:** 39,030 nodes, 21,095 elements.
 
-> See the full ANSYS report in `Report.pdf` and the visual results in `Model_Images/`.
+> See the full ANSYS report in `Report.pdf`.
 
 ---
 
@@ -68,9 +68,9 @@ Disc-Brake-FEA-ANSYS/
 
 ## Results (what to look for)
 
-* **Temperature:** Contour plot (`Model_Images/temp.png`) shows a peak of 100 °C concentrated near the frictional contact region.
-* **Equivalent stress:** von‑Mises stress contour (`Model_Images/equivalent stress.png`) indicates a peak of 621.02 MPa at geometrically stressed locations (fillets, hub/spoke junctions).
-* **Deformation:** Total deformation plot (`Model_Images/total def.png`) shows a maximum displacement of 0.067061 mm.
+* **Temperature:** Contour plot (`temp.png`) shows a peak of 100 °C concentrated near the frictional contact region.
+* **Equivalent stress:** von‑Mises stress contour (`equivalent stress.png`) indicates a peak of 621.02 MPa at geometrically stressed locations (fillets, hub/spoke junctions).
+* **Deformation:** Total deformation plot (`total def.png`) shows a maximum displacement of 0.067061 mm.
 
 Interpretation and engineering guidance are provided in the full report and the README’s Results section (mesh sensitivity recommendation, factor of safety check, and suggested design changes).
 
@@ -83,7 +83,7 @@ Interpretation and engineering guidance are provided in the full report and the 
 3. Create mesh with local refinement near contact surfaces and vanes.
 4. Run **Steady‑State Thermal**: apply heat flux/convection and record temperature field.
 5. Link thermal solution to **Static Structural**: import body temperature, apply mechanical pressure/constraints and rotational velocity, and solve.
-6. Export contour images for temperature, von‑Mises stress, and total deformation to `Model_Images/`.
+6. Export contour images for temperature, von‑Mises stress, and total deformation.
 
 ---
 
